@@ -1,0 +1,55 @@
+.gpt_taishiqing_b {
+    background-color:rgb(85, 118, 123) ; /* 工具栏的背景颜色 */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px; /* 工具栏的高度 */
+  }
+  
+  .white {
+    color: white; /* 文字的颜色 */
+  }
+  
+  .button-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px; /* 按钮区域与工具栏之间的距离 */
+  }
+  
+  .taishiqing_b.button {
+    width: calc(60% / 5); /* 按钮的宽度，占据屏幕宽度的3/5，平均分为5份 */
+    height: calc(100vh / 8); /* 按钮的高度，占据屏幕的1/8 */
+    margin: 0 50px; /* 按钮之间的距离 */
+    border-radius: 8px; /* 按钮的圆角 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 按钮的阴影效果 */
+    display: flex;
+    align-items: center;
+  }
+  
+  .taishiqing_b.button:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* 鼠标悬停时按钮的阴影效果 */
+  }
+  
+  .left-section {
+    width: 33.33%; /* 左侧部分占 1/3 宽度 */
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-section {
+    width: 66.67%; /* 右侧部分占 2/3 宽度 */
+  }
+  
+  .icon {
+    width: 50px; /* 图标的宽度 */
+    height: 50px; /* 图标的高度 */
+    background-color: rgb(85, 118, 123); /* 图标的背景颜色 */
+    margin-right: 10px; /* 图标与文字之间的距离 */
+  }
+  
+  p {
+    margin: 0; /* 清除段落的默认边距 */
+  }
+  
+  

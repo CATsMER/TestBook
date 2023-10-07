@@ -1,0 +1,49 @@
+@font-face{
+    font-family:"Dela";
+    src: url("../fonts/德拉黑体/DelaGothic.ttf")
+    }
+
+@font-face{
+font-family:"tihu";
+src: url("../fonts/醍醐书体/醍醐书体A.ttf")
+}
+
+@font-face {
+    font-family: "Blaec";
+    src: url("../fonts/Blaec/Blaec-Italic.ttf") format("truetype");
+}
+
+
+/*编辑完全的网页--1号*/
+.parent {
+display: grid;
+grid-template-columns: repeat(11, 1fr);
+grid-template-rows: repeat(12, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.div1 { grid-area: 1 / 1 / 2 / 12; }
+.div2 { grid-area: 3 / 4 / 12 / 9; padding: 20px;}
+.div3 { grid-area: 3 / 10 / 4 / 11; }
+.div4 { grid-area: 5 / 10 / 6 / 11; }
+.div5 { grid-area: 7 / 10 / 8 / 11; }
+.div6 { grid-area: 9 / 10 / 10 / 11; }
+.div8 { grid-area: 3 / 1 / 10 / 3;}
+
+
+/*醍醐*/
+.tihu{ font-family: "tihu"; font-weight: bold;}
+
+/* 好看颜色大全（收录中） */
+.xueya{ color: rgb(233, 209, 181);}
+.xueya-b{background-color: rgb(233, 209, 181);}
+.taishiqing{color:rgb(85, 118, 123);}
+.taishiqing-b{background-color:rgb(85, 118, 123);}
+.white{color:white;}
+.white-b{background-color:white;}
+
+
+
+
+
+/*------------------------------------------------------------------*/
